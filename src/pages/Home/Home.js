@@ -41,8 +41,8 @@ function Home() {
 
     try {
       // Call API to check if records exist
-      // const response = await fetch(`/api/moistureSensor/getDataByDeviceId?deviceId=${inputValue}`,
-      const response = await fetch(`http://ec2-3-84-96-129.compute-1.amazonaws.com:8080/api/moistureSensor/getDataByDeviceId?deviceId=${inputValue}`,
+      const response = await fetch(`/api/moistureSensor/getDataByDeviceId?deviceId=${inputValue}`,
+      // const response = await fetch(`http://ec2-3-84-96-129.compute-1.amazonaws.com:8080/api/moistureSensor/getDataByDeviceId?deviceId=${inputValue}`,
 
         {
           method: 'GET',
